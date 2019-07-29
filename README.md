@@ -6,6 +6,7 @@ KAOP的改造
      * 2、将自己定义类特性放到要处理的类上
      * 3、将这个类里面自己要处理的方法上增加特性：[KAopMethod]
      * 4、类要继承KAopContextBoundObject
+     * 5、基于.NET FrameWork 4.5
 
 
             MyKAOPTest test = new MyKAOPTest();//KAopMethodAttribute就得加在实现方法定义上才行
