@@ -11,6 +11,7 @@
  */
 
 
+using KAOP;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace KAOPSample
 {
     interface IMyKAOPTest
     {
+        [KAopMethod]
         string Test(int para);
     }
 }
